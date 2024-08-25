@@ -31,9 +31,13 @@ function App() {
 
   return (
     <>
-      <Main />
-      {showModal && <SideBar handleToggleModal={handleToggleModal} />}
-      <Footer handleToggleModal={handleToggleModal} />
+      {data ? (<Main />) : (
+        <div className="loadingState">
+          <i className="fa-solid fa-gear"></i>
+        </div>
+      )}
+      {showModal && <SideBar data={data} handleToggleModal={handleToggleModal} />}
+      {data && (<Footer data={data} handleToggleModal={handleToggleModal} />)}
     </>
   );
 }
