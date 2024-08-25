@@ -1,17 +1,17 @@
-import Footer from "./components/Footer"
-import SideBar from "./components/SideBar"
-import Main from "./components/Main"
+import Footer from "./components/Footer";
+import SideBar from "./components/SideBar";
+import Main from "./components/Main";
+import { useState } from "react";
 
 function App() {
- 
-
+  const [showModal, setShowModal] = useState(false);
   return (
     <>
-    <SideBar>gegegeg</SideBar>
-    <Main/>
-    <Footer/>
+      <Main />
+      {showModal && (<SideBar/>)}
+      <Footer />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
