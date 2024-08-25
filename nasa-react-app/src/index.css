@@ -70,7 +70,7 @@ footer button {
   outline: none;
   color: white;
   padding: 1rem;
-  transition-duration: 200ms;
+  transition-duration: 200ms; 
   cursor: pointer;
 }
 
@@ -137,6 +137,10 @@ footer button:hover {
   cursor: pointer;
   transition-duration: 200ms;
   padding: 1rem 0;
+}
+
+.sidebarContents button:hover{
+  opacity: 0.7;
 }
 
 
