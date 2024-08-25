@@ -143,6 +143,17 @@ footer button:hover {
   opacity: 0.7;
 }
 
+.descriptionContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.descriptionTitle {
+  font-size: 1.1rem;
+  font-weight: 200;
+}
+
 .loadingState {
   display: flex;
   align-items: center;
