@@ -1,11 +1,15 @@
-
+import Footer from "./components/Footer"
+import SideBar from "./components/SideBar"
+import Main from "./components/Main"
 
 function App() {
  
 
   return (
     <>
-     {Math.round(3/42**3 + (3 ** 2))}
+    <SideBar>gegegeg</SideBar>
+    <Main/>
+    <Footer/>
     </>
   )
 }
