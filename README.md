@@ -62,7 +62,7 @@ VITE_NASA_API_KEY=your_api_key_here
 ```bash
 npm run dev
 ```
-
+<!---
 ## Contributing 🤝
 
 1. Fork the repository
@@ -70,7 +70,7 @@ npm run dev
 3. Commit changes (`git commit -m 'Add AmazingFeature'`)
 4. Push to branch (`git push origin feature/AmazingFeature`)
 5. Open Pull Request
-
+--->
 ## License 📝
 
 This project is open source and available under the [MIT License](LICENSE).
